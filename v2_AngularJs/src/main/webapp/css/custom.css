@@ -1,0 +1,218 @@
+/*bootstrap menu*/
+.nav {
+	background-color: #FFDEAD; /*navajowhite*/
+	border-radius: 3px;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+	border-color: rgba(254, 200, 119, 1);
+	background-color: rgba(254, 200, 119, 1);
+	color: rgba(0, 0, 0, 1); /*black*/
+}
+
+.nav > li > a {
+	color: rgba(0, 0, 0, 1); /*black*/
+}
+
+.nav > li > ul> li> a {
+	color: rgba(0, 0, 0, 1); /*black*/
+}
+
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+	background-color: rgba(253, 185, 83, 1);
+	border-color: rgba(253, 185, 83, 1);
+}
+
+.nav-tabs > li > a {
+	margin-right: 0px;
+	border: 0px;
+	border-radius: 0px;
+}
+
+/*content area style*/
+.content-syscom {
+	margin-top: 5px;
+}
+
+/*msg area style*/
+.alert-syscom {
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+
+/*msg area close button style*/
+button.close {
+	background: transparent;
+		
+}
+
+.close:hover, .close:focus {
+	color: #000;  /*black*/
+}
+
+.alert h4 {
+	display: inline;
+}
+
+/*ng-grid*/
+.gridStyle {
+	border: 1px solid rgb(212,212,212);
+	width: 1076px; 
+	height: 360px;
+	margin-top: 10px;
+}
+
+.ngHeaderContainer {
+	color: white;
+	background-color: rgba(87, 158, 215, 1); /*blue*/
+}
+
+.ngHeaderCell {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background-color: inherit;
+    border-left: 1px solid rgb(212,212,212);
+}
+
+.selected.ngRow {
+	background-color: rgba(244, 216, 190, 1); /*pink*/
+}
+
+.ngCell  {
+  display : table-cell;
+ /* height: auto !important;*/
+  /*overflow:visible;*/
+  /*position: static;*/
+  border-left: 1px solid rgb(212,212,212);
+}
+
+.ngRow {
+  display : table-row;
+  /*height: auto !important;*/
+  /*position: static;*/
+}
+
+.ngCellText {
+  height: auto !important;
+  white-space: normal;
+  overflow:visible;
+  word-wrap:break-word;
+  word-break:break-all;
+}
+
+.ngVerticalBar {
+	position:absolute;
+	right:auto;
+    width:0;
+}
+
+.ngVerticalBarVisible{
+      height: 100% !important;
+ 
+ }
+.grid-align-center {
+	text-align: center;
+}
+
+/*template css in ng-grid*/
+.template-in-ng-grid {
+	width:80% !important;
+	margin-top:1px; 
+	margin-left:5px; 
+	margin-right:5px; 
+	margin-bottom:1px; 
+	
+	padding-top: 1px;	
+	padding-bottom: 1px;
+	
+	height:28px
+}
+
+/*button setting*/
+.btn-pos-setting {
+	float: right !important;
+	margin: 3px;
+}
+
+/*message time setting*/
+.msgTime-pos-setting {
+	float: right !important;
+	margin-right: 3px;
+	font-size: 6px;
+	margin-top: -10px;
+}
+
+/*input validation*/
+input.ng-invalid {
+	background-color: #f2dede;
+}
+
+/*input validation message*/
+.tooltip.right {
+    margin-left: 3px;
+    padding: 0 5px;
+}
+
+.tooltip.in {
+    opacity: .9;
+}
+
+.tooltip {
+    position: absolute;
+    z-index: 1030;
+    display: block;
+    visibility: visible;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.tooltip.right .tooltip-arrow {
+    top: 50%;
+    left: 0;
+    margin-top: -5px;
+    border-width: 5px 5px 5px 0;
+}
+
+.tooltip-arrow {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-color: rgba(255,255,255,0.15);
+    border-style: solid;
+}
+
+.tooltip-inner {
+    max-width: 250px;
+    padding: 3px 8px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background-color: #000;
+    border-radius: 4px;
+}
+.tooltip-pos {
+	width: 110px;
+    display: block;
+    top: 28px;
+    left: 216px;
+}
+
+.validation-error {
+    text-align: left;
+}
+
+/*d3*/
+.axis path,.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+.tips{
+	display:none;
+}
+.tips-border {
+  fill: #F3E4E4;
+  stroke: gray;        
+  stroke-width: 2;
+}

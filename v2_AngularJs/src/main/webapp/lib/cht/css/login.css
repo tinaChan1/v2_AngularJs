@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+.control-label {
+  vertical-align: top;
+}
+
+.underlined {
+  border-bottom-width: 1px;
+  border-bottom-style: dotted;
+  border-bottom-color: lightGray;
+}
+
+body {
+  background-color: white;
+  /*background-image: url("../../images/login/bg.jpg");*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 0%;
+  background-position-x: 50%;
+}
+
+@media screen and (min-width: 768px) {
+  .container-login-art {
+    /*background-image: url("../../images/login/logo.jpg"), url("../../images/login/something_useless.png");*/
+    /*background-image: url("../../images/login/something_useless.png");*/
+    background-repeat: no-repeat;
+    background-position-y: 60px, 100%;
+    min-height: 580px;
+  }
+}
+
+.panel-login-form {
+  margin-top: 32px;
+  opacity: 0.95;
+  filter: alpha(opacity = 95); /* For IE8 and earlier */
+}
+
+@media screen and (min-width: 768px) {
+  .panel-login-form {
+    margin-top: 80px;
+  }
+}
+
+.panel {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.alert {
+  opacity: 0.85;
+  filter: alpha(opacity = 85); /* For IE8 and earlier */
+}
